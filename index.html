@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+      background-color: #ffc1d0; /* Cute pink background */
+            box-shadow: 0 0 10px rgba(255, 105, 180, 0.2); /* Cute shadow */
+
+    }
+
+    table {
+      border-collapse: collapse;
+      width: 80%;
+      height: 200px;
+      margin: 20px;
+      box-shadow: 0 0 10px rgba(255, 105, 180, 0.2); /* Cute shadow */
+      border-radius: 12px;
+      overflow: hidden;
+    }
+
+    td {
+      width: 50px;
+      border-radius: 5px;
+      padding: 10px;
+      text-align: center;
+      border: 10px solid #ffc1d0; /* Cute pink border */
+      font-size: 16px;
+      font-weight: bold;
+      background-color: #ffc1d0; /* Light pink background */
+    }
+
+    .green {
+      background-color: #96f09d; /* Light green */
+    }
+
+    .red {
+ 
+      background-color: #ff7b9c; /* Light red */
+    }
+
+    .yellow {
+      background-color: #ffd073; /* Light yellow */
+    }
+  </style>
+  <title>Week Calendar</title>
+</head>
+<body>
+  <table>
+    <tr>
+      <td class="yellow">Sat</td>
+      <td class="yellow">Sun</td>
+      <td class="green">Mon</td>
+      <td class="red">Tue</td>
+      <td class="green">Wed</td>
+      <td class="red">Thu</td>
+      <td class="red">Fri</td>
+    </tr>
+  </table>
+</body>
+</html>
